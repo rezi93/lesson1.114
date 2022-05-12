@@ -22,6 +22,7 @@ for (let item of array) {
 console.log(item);
     }
 }
+
     
 
 let array = [32, 10, 'hello', null, 'hello2', 50 ];
@@ -32,3 +33,29 @@ for (let x of array) {
     }
 }
 
+
+
+let user = {
+	name: 'giorgi',
+	age:  20,
+	studentstatus: 'activ'
+}
+let x=20;
+if (x>18) {
+    console.log('hello');
+} else if (x<25) {
+    console.log('hello world');
+    if (user.name=levan) {
+        console.log('hello giorgi');
+    }
+}
+
+
+
+let array = [ [2, -3, 5, 10], [25, -24, -11, 100] , [-6, -7, 10] ]
+
+for (let x of numbers) {
+    if (x % 2 == 0) {
+        console.log(x);
+    }
+}
